@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A package for Kidney Disease Prediction using Machine Learning
+Home-page: https://github.com/MB3339/NephroFlow
+Author: MB3339
+Author-email: meetbhatt96.mb@gmail.com
+Project-URL: Bug Tracker, https://github.com/MB3339/NephroFlow/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: summary
