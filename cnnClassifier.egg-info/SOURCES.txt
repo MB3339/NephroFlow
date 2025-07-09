@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+cnnClassifier.egg-info/PKG-INFO
+cnnClassifier.egg-info/SOURCES.txt
+cnnClassifier.egg-info/dependency_links.txt
+cnnClassifier.egg-info/top_level.txt
