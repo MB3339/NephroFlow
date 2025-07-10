@@ -1,0 +1,49 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A package for Kidney Disease Prediction using Machine Learning
+Home-page: https://github.com/MB3339/NephroFlow
+Author: MB3339
+Author-email: meetbhatt96.mb@gmail.com
+Project-URL: Bug Tracker, https://github.com/MB3339/NephroFlow/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: summary
+
+# NephroFlow 🩺
+
+ML pipeline for early prediction of kidney disease using structured lab test data.
+
+## Features
+- Logistic Regression + Ensemble Models
+- MLflow tracking
+- DVC versioning
+- Docker-ready setup
+- Modular folder structure
+
+## Setup
+
+```bash
+git clone https://github.com/MB3339/NephroFlow.git
+cd NephroFlow
+pip install -r requirements.txt
+```
+## Workflows
+- update config.yaml file
+- update secrets.yaml file [optinal]
+- update params.yaml file
+- update the entity
+- update the configuration manager in src config
+- update the components
+- update the pipeline
+- update main.py
+- update dvc.yaml
+- app.py
+

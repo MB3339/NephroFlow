@@ -1,0 +1,27 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local artifacts and runtime data
+artifacts/
+research/
+
+# Configs you want to keep private
+config.yaml
+param.yaml
+.env
+
+# Virtual environments
+venv/
+*.egg-info/
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS noise
+*.DS_Store
+Thumbs.db

@@ -1,19 +1,22 @@
 tensorflow==2.12.0
+numpy>=1.21.0
 pandas
-dvc
-mlflow==2.2.2
-notebook
-numpy
 matplotlib
 seaborn
-python-box==6.0.2
-pyYAML
-tqdm
-ensure==1.0.2
-joblib
-types-pyYAML
+scikit-learn
 scipy
+mlflow==2.2.2
+dvc
 flask
 flask-cors
+python-box==6.0.2
+pyYAML
+types-pyYAML
+ensure==1.0.2
+tqdm
+joblib
+notebook
 gdown
+protobuf==3.20.3
+# wrapt is managed by tensorflow; do NOT pin it manually
 -e .

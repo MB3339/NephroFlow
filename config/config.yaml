@@ -1,0 +1,6 @@
+artifacts_root: artifacts/
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  local_data_file: research/Normal&Tumor.zip
+  unzip_dir: artifacts/data_ingestion/unzipped_data
