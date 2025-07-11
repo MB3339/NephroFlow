@@ -10,3 +10,15 @@ class DataIngestionConfig:
     root_dir: Path
     local_data_file: Path  # Path to the local ZIP file
     unzip_dir: Path        # Destination directory for extracted contents
+
+
+@dataclass(frozen=True)
+class PrepareBaseModelConfig:
+    root_dir: Path 
+    base_model_path: Path
+    updated_base_model_path: Path
+    param_image_size: list 
+    param_learning_rate: float
+    param_include_top: bool
+    param_weights: str
+    param_classes: int

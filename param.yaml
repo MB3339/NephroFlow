@@ -1,4 +1,9 @@
-model_params:
-  learning_rate: 0.001
-  epochs: 10
-  batch_size: 32
+prepare_base_model:
+  augmentation: True
+  image_size: [224, 224, 3]     # as per VGG16 input
+  batch_size: 16
+  include_top: False
+  epochs: 200
+  classes: 2
+  weights: imagenet
+  learning_rate: 0.01
