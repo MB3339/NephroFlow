@@ -3,7 +3,8 @@ prepare_base_model:
   image_size: [224, 224, 3]     # as per VGG16 input
   batch_size: 16
   include_top: False
-  epochs: 200
+  epochs: 50
   classes: 2
   weights: imagenet
-  learning_rate: 0.01
+  learning_rate: 0.0005
+
