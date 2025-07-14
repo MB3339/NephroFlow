@@ -25,3 +25,9 @@ venv/
 # OS noise
 *.DS_Store
 Thumbs.db
+
+# Ignore zip files in research folder
+research/*.zip
+
+# Alternatively, ignore all zip files in the project
+*.zip"research/*.zip" 
