@@ -339,3 +339,15 @@ TypeError: Training.train() got an unexpected keyword argument 'callback_list'
 [2025-07-15 14:45:06,992]:INFO: _internal   * Debugger PIN: 665-980-857:]
 [2025-07-15 14:45:07,339]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:45:07] "GET / HTTP/1.1" 200 -:]
 [2025-07-15 14:45:30,009]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:45:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -:]
+[2025-07-15 14:47:19,354]:INFO: _internal  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.14.45:8080:]
+[2025-07-15 14:47:19,354]:INFO: _internal  [33mPress CTRL+C to quit[0m:]
+[2025-07-15 14:47:19,358]:INFO: _internal   * Restarting with stat:]
+[2025-07-15 14:47:26,058]:WARNING: _internal   * Debugger is active!:]
+[2025-07-15 14:47:26,062]:INFO: _internal   * Debugger PIN: 665-980-857:]
+[2025-07-15 14:47:26,385]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:47:26] "GET / HTTP/1.1" 200 -:]
+[2025-07-15 14:47:26,474]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:47:26] "GET / HTTP/1.1" 200 -:]
+[2025-07-15 14:47:34,528]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:47:34] "POST /predict HTTP/1.1" 200 -:]
+[2025-07-15 14:57:11,646]:INFO: _internal   * Detected change in 'M:\\job hunt\\Harrisburg University Documents\\ML Project\\Kris_Naik_series_Projects\\Kidney_Disease_classi\\NephroFlow\\app.py', reloading:]
