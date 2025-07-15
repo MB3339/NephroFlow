@@ -294,3 +294,48 @@ TypeError: Training.train() got an unexpected keyword argument 'callback_list'
 [2025-07-14 04:07:21,486]:INFO: main  >>>>> Stage Model Training stage completed <<<<<
 
 :]
+[2025-07-15 00:44:53,139]:INFO: common  YAML file loaded successfully from M:\job hunt\Harrisburg University Documents\ML Project\Kris_Naik_series_Projects\Kidney_Disease_classi\NephroFlow\config\config.yaml:]
+[2025-07-15 00:44:53,166]:INFO: common  YAML file loaded successfully from M:\job hunt\Harrisburg University Documents\ML Project\Kris_Naik_series_Projects\Kidney_Disease_classi\NephroFlow\param.yaml:]
+[2025-07-15 00:44:53,172]:INFO: common  Created directory: artifacts/:]
+[2025-07-15 00:47:57,945]:INFO: common  YAML file loaded successfully from M:\job hunt\Harrisburg University Documents\ML Project\Kris_Naik_series_Projects\Kidney_Disease_classi\NephroFlow\config\config.yaml:]
+[2025-07-15 00:47:57,951]:INFO: common  YAML file loaded successfully from M:\job hunt\Harrisburg University Documents\ML Project\Kris_Naik_series_Projects\Kidney_Disease_classi\NephroFlow\param.yaml:]
+[2025-07-15 00:47:57,954]:INFO: common  Created directory: artifacts/:]
+[2025-07-15 00:51:02,981]:INFO: common  YAML file loaded successfully from M:\job hunt\Harrisburg University Documents\ML Project\Kris_Naik_series_Projects\Kidney_Disease_classi\NephroFlow\config\config.yaml:]
+[2025-07-15 00:51:02,987]:INFO: common  YAML file loaded successfully from M:\job hunt\Harrisburg University Documents\ML Project\Kris_Naik_series_Projects\Kidney_Disease_classi\NephroFlow\param.yaml:]
+[2025-07-15 00:51:02,990]:INFO: common  Created directory: artifacts/:]
+[2025-07-15 00:56:33,642]:INFO: common  JSON file saved at scores.json:]
+[2025-07-15 14:32:59,440]:INFO: _internal  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.14.45:8080:]
+[2025-07-15 14:32:59,440]:INFO: _internal  [33mPress CTRL+C to quit[0m:]
+[2025-07-15 14:32:59,443]:INFO: _internal   * Restarting with stat:]
+[2025-07-15 14:33:06,011]:WARNING: _internal   * Debugger is active!:]
+[2025-07-15 14:33:06,022]:INFO: _internal   * Debugger PIN: 665-980-857:]
+[2025-07-15 14:33:33,615]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:33:33] "GET / HTTP/1.1" 200 -:]
+[2025-07-15 14:33:33,716]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:33:33] "GET / HTTP/1.1" 200 -:]
+[2025-07-15 14:33:34,131]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:33:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -:]
+[2025-07-15 14:34:10,779]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:34:10] "POST /predict HTTP/1.1" 200 -:]
+[2025-07-15 14:34:34,021]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:34:34] "POST /predict HTTP/1.1" 200 -:]
+[2025-07-15 14:35:09,513]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:35:09] "POST /predict HTTP/1.1" 200 -:]
+[2025-07-15 14:41:10,370]:INFO: _internal  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.14.45:8080:]
+[2025-07-15 14:41:10,370]:INFO: _internal  [33mPress CTRL+C to quit[0m:]
+[2025-07-15 14:41:10,373]:INFO: _internal   * Restarting with stat:]
+[2025-07-15 14:41:16,414]:WARNING: _internal   * Debugger is active!:]
+[2025-07-15 14:41:16,419]:INFO: _internal   * Debugger PIN: 665-980-857:]
+[2025-07-15 14:41:22,295]:INFO: _internal  172.20.14.45 - - [15/Jul/2025 14:41:22] "GET / HTTP/1.1" 200 -:]
+[2025-07-15 14:41:22,760]:INFO: _internal  172.20.14.45 - - [15/Jul/2025 14:41:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -:]
+[2025-07-15 14:41:28,117]:INFO: _internal  172.20.14.45 - - [15/Jul/2025 14:41:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -:]
+[2025-07-15 14:45:00,493]:INFO: _internal  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.14.45:8080:]
+[2025-07-15 14:45:00,495]:INFO: _internal  [33mPress CTRL+C to quit[0m:]
+[2025-07-15 14:45:00,497]:INFO: _internal   * Restarting with stat:]
+[2025-07-15 14:45:06,987]:WARNING: _internal   * Debugger is active!:]
+[2025-07-15 14:45:06,992]:INFO: _internal   * Debugger PIN: 665-980-857:]
+[2025-07-15 14:45:07,339]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:45:07] "GET / HTTP/1.1" 200 -:]
+[2025-07-15 14:45:30,009]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:45:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -:]
