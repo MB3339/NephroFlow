@@ -1,0 +1,37 @@
+stages:
+  data_ingestion:
+    cmd: python src/cnnClassifier/pipeline/stage01_data_ingestion.py
+    deps:
+      - src/cnnClassifier/pipeline/stage01_data_ingestion.py
+      - config/config.yaml
+    outs:
+      - artifacts/data_ingestion/unzipped_data
+
+  prepare_base_model:
+    cmd: python src/cnnClassifier/pipeline/stage02_prepare_base_model.py
+    deps:
+      - src/cnnClassifier/pipeline/stage02_prepare_base_model.py
+      - config/config.yaml
+      - param.yaml
+    outs:
+      - artifacts/prepare_base_model/updated_model.h5
+
+  training:
+    cmd: python src/cnnClassifier/pipeline/stage_03_model_training.py
+    deps:
+      - src/cnnClassifier/pipeline/stage_03_model_training.py
+      - artifacts/prepare_base_model/updated_model.h5
+      - config/config.yaml
+      - param.yaml
+    outs:
+      - artifacts/training/trained_model.h5
+
+  evaluation:
+    cmd: python src/cnnClassifier/pipeline/Stage_04_model_evaluation.py
+    deps:
+      - src/cnnClassifier/pipeline/Stage_04_model_evaluation.py
+      - artifacts/training/trained_model.h5
+      - config/config.yaml
+      - param.yaml
+    outs:
+      - scores.json

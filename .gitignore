@@ -31,3 +31,4 @@ research/*.zip
 
 # Alternatively, ignore all zip files in the project
 *.zip"research/*.zip" 
+/scores.json
