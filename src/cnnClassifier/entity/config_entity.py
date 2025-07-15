@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Any
 
 @dataclass(frozen=True)
 class DataIngestionConfig:
@@ -34,3 +35,13 @@ class TrainingConfig:
     params_batch_size: int
     params_is_augmentation: bool
     params_image_size: list
+
+
+@dataclass(frozen=True)
+class EvaluationConfig:
+    path_of_model: Path
+    training_data: Path
+    all_params: Any
+    mlflow_uri: str
+    params_image_size: list
+    params_batch_size: int

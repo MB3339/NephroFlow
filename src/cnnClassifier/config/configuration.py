@@ -2,9 +2,9 @@ from cnnClassifier.constants import *
 from cnnClassifier.utils.common import read_yaml, create_directories 
 import os
 from cnnClassifier.constants import CONFIG_FILE_PATH, PARAM_FILE_PATH
-from cnnClassifier.utils.common import read_yaml, create_directories
+from cnnClassifier.utils.common import read_yaml, create_directories,save_json
 from pathlib import Path
-from cnnClassifier.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig
+from cnnClassifier.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig,EvaluationConfig
 
 class ConfigurationManager:
     def __init__(self,
@@ -69,3 +69,15 @@ class ConfigurationManager:
 
         return training_config
 
+    def get_evaluation_config(self) -> EvaluationConfig:
+        params = self.param.prepare_base_model
+        eval_config= EvaluationConfig(
+            
+            path_of_model='artifacts/training/trained_model.h5',
+            training_data='artifacts/data_ingestion/unzipped_data',
+            all_params=self.param.prepare_base_model,
+            mlflow_uri='https://dagshub.com/MB3339/NephroFlow.mlflow',
+            params_image_size=params.image_size,
+            params_batch_size=params.batch_size
+        )
+        return eval_config
