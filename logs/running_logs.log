@@ -351,3 +351,8 @@ TypeError: Training.train() got an unexpected keyword argument 'callback_list'
 [2025-07-15 14:47:26,474]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:47:26] "GET / HTTP/1.1" 200 -:]
 [2025-07-15 14:47:34,528]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 14:47:34] "POST /predict HTTP/1.1" 200 -:]
 [2025-07-15 14:57:11,646]:INFO: _internal   * Detected change in 'M:\\job hunt\\Harrisburg University Documents\\ML Project\\Kris_Naik_series_Projects\\Kidney_Disease_classi\\NephroFlow\\app.py', reloading:]
+[2025-07-15 14:57:12,408]:INFO: _internal   * Restarting with stat:]
+[2025-07-15 14:57:26,010]:WARNING: _internal   * Debugger is active!:]
+[2025-07-15 14:57:26,018]:INFO: _internal   * Debugger PIN: 665-980-857:]
+[2025-07-15 15:00:28,557]:INFO: _internal  127.0.0.1 - - [15/Jul/2025 15:00:28] "POST /predict HTTP/1.1" 200 -:]
+[2025-07-15 16:21:45,310]:INFO: _internal   * Detected change in 'm:\\job hunt\\harrisburg university documents\\ml project\\kris_naik_series_projects\\kidney_disease_classi\\nephroflow\\src\\cnnClassifier\\pipeline\\prediction.py', reloading:]
